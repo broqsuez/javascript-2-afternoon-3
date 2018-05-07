@@ -122,7 +122,7 @@ let array_with_duplcates = ['DELHI','NEWYORK','DELHI','GOA','MUMBAI','CALIFORNIA
 function uniq(arr, cb){
   let uniqArr = [];
   for (let i=0; i < arr.length; i++){
-    if(uniqArr.indexOf(arr[i]) ===-1){
+    if(uniqArr.indexOf(arr[i]) === -1){
       uniqArr.push(arr[i]);
     }
     cb(uniqArr);
